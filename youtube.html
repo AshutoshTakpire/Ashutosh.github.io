@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect to YouTube</title>
+    <style>
+        .button {
+            background-color: #FF0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #CC0000;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Click the Button to Visit YouTube</h1>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <button class="button" onclick="goToYouTube()">Go to YouTube</button>
+    </div>
+
+    <script>
+        function goToYouTube() {
+            window.location.href = "https://youtube.com/@ashutosh_takpire?si=X9HeIL0484_8nc37";
+        }
+    </script>
+</body>
+</html>
